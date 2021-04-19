@@ -1,0 +1,132 @@
+* {
+    border:0px;
+    padding: 0px;
+}
+.main-wrapper{
+    width: 970px;
+    height: 1100px;
+    background-color:#255076 ;
+    border: black solid 2px;
+}
+.head-wrapper{
+    width: 970px;   
+    background-color:#255076 ;
+}
+
+.head-container-top{
+    height: 30px;
+    display: inline-block;
+    margin-left: 765px;
+    font-size: 13px;
+
+}
+.head-container-top a{
+    color: #a19622;
+    font-size: 15px;
+    margin: 2px;
+}
+.head-container-mid{
+    width: 968px;
+    background-color:#255076 ;
+    display: inline-block;
+}
+.head-logo-box{
+    width: 500px;
+    background-color:#255076 ;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+}
+.head-search-box{
+    width: 300px;
+    height: 60px;
+    background-color:#444 ;
+    display: inline-block;
+    margin-left: 130px;
+    border-radius: 10px;
+    margin-top: 5px;    
+    box-shadow: 2px 2px;
+}
+.head-search-box input{
+    text-align: center;
+    height: 35px;
+    width: 170px;
+    margin:12px 0px 5px 50px;
+    border-color: #c0c0c0 1px;
+    display: inline-block;
+    box-shadow: 1px 1px black;
+    font-size:12px ;
+    color: #cdcdcd;
+}
+.search-btn, #btn{
+    height: 30px;
+    width: 40px;
+    text-align: center;
+    margin-left: 5px;
+    background-color: #255076;
+    border-radius: 4px;
+    display: inline-block;
+    border:#bebebf solid 2px;
+    color: #9db1c2;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 2px 2px black;   
+}
+
+.nav-wrapper{
+    height: 45px;
+    width: 750px;
+    display: inline-block;
+    margin-left: 100px;
+    list-style: none;
+    background-color:#407bad ;
+    box-shadow: 2px 2px;
+    padding: 0px 0px 0px 30px;
+    border-radius: 5px;
+}
+.nav-wrapper ul{
+    margin:10px 0px 0px 0px ;
+}
+.nav-wrapper li, a{
+    list-style: none;
+    text-decoration: none;
+    color: #e5edf3;
+    font-size: 20px;
+    margin-top: 0px;
+    display: inline;
+    margin-left: 18px;
+}
+.nav-content-wrapper{
+    width: 80%;
+    border: black solid 1px;
+    display:inline-block;
+    margin-left: 100px;
+}
+.vert-nav-box{
+    height: 80%;
+    width: 30%;
+    border: black solid 1px;
+    display:inline-block;
+    text-align: center;
+}
+.vert-nav-box ul{
+    font-size: 17px;
+    display: inline-block;
+    list-style: none;
+    
+}
+.vert-nav-box li{
+    padding: 0px;
+    margin-bottom: 3px;
+    text-decoration: underline;
+    background-image: url(/img/Arrow.png) ;
+    background-repeat: no-repeat;
+    background-position:0px 50%;
+    background-size: 7px 7px;
+    padding-left: 1px;
+   margin-left: px;
+}
+
+
+
+
