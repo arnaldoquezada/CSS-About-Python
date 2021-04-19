@@ -7,6 +7,7 @@
     height: 1100px;
     background-color:#255076 ;
     border: black solid 2px;
+    padding: 0px 10px 0px 20px;
 }
 .head-wrapper{
     width: 970px;   
@@ -83,24 +84,26 @@
     box-shadow: 2px 2px;
     padding: 0px 0px 0px 30px;
     border-radius: 5px;
+    margin-top: 20px;
 }
 .nav-wrapper ul{
     margin:10px 0px 0px 0px ;
 }
-.nav-wrapper li, a{
+.nav-wrapper > li, a {
     list-style: none;
     text-decoration: none;
     color: #e5edf3;
     font-size: 20px;
     margin-top: 0px;
     display: inline;
-    margin-left: 18px;
+    margin-left: 5px;
 }
 .nav-content-wrapper{
     width: 80%;
     border: black solid 1px;
     display:inline-block;
     margin-left: 100px;
+
 }
 .vert-nav-box{
     height: 80%;
@@ -115,17 +118,30 @@
     list-style: none;
     
 }
-.vert-nav-box li{
+.vert-nav-box li{ 
     padding: 0px;
     margin-bottom: 3px;
+<<<<<<< HEAD
     text-decoration: underline;
     background-image: url(/img/Arrow.png) ;
     background-repeat: no-repeat;
     background-position:0px 50%;
     background-size: 7px 7px;
     padding-left: 1px;   
+=======
+       
+>>>>>>> 688871505e4e868a7749d9e8b10371e8d12baaa0
 }
 
-
-
-
+.vert-nav-box li::before{
+    content: "\0BB \020"; 
+    color: yellow;
+  
+    
+}
+.test{
+    border: 2px black solid;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
